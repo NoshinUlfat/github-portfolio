@@ -1273,3 +1273,9 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+@media (max-width: 575.98px) {
+  .academic-projects {
+    margin-top: 5rem !important; /* adjust the value as needed */
+  }
+}
