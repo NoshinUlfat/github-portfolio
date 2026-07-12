@@ -69,6 +69,12 @@
   text-decoration: none;
 }
 
+/* Let long email addresses wrap inside the narrow contact column */
+.contact .info-item p {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 /* Embedded map iframe */
 .map-embed {
   border: 0;
